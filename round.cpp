@@ -50,6 +50,6 @@ int main() {
         }
     } catch (std::invalid_argument) {
         std::cout << "Invalid number!" << std::endl;
-        std::cout << "\nDone." << std::endl;
     }
+    std::cout << "\nDone.";
 }
