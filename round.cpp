@@ -8,7 +8,7 @@
 #include <string>
 #include <cmath>
 
-void Decimal_Round(float &decimal, const int &decimalPlaces) {
+void DecimalRound(float &decimal, const int &decimalPlaces) {
     // This function rounds the decimal
 
     // process & output
@@ -41,7 +41,7 @@ int main() {
         floatEnter = std::stof(floatEnterString);
         decimalPlaces = std::stoi(decimalPlacesString);
         if (decimalPlaces >= 0) {
-            Decimal_Round(floatEnter, decimalPlaces);
+            DecimalRound(floatEnter, decimalPlaces);
             std::cout << "The rounded number is "
             << floatEnter << "." << std::endl;
         } else {
